@@ -2,24 +2,39 @@
   width: 350px;
   min-height: 700px;
   margin: 0 auto ;
-  background-image: url(pic4.jpg);
-  box-shadow:  0 0 10px gray;
+  background-color:white;
+  
+  box-shadow: 0 0 10px gray;
   margin-top: 50px;
   padding: 10px 50px;
   font-family: "Times New Roman", Times, serif;
+  background-image: url("1.png"), url("2.png"), url("3.png"), url("4.png");
+  background-position: left top, left top, left top, left top ;
+  background-repeat: repeat-x;
+  background-size: 100% 20%, 100% 55%, 100% 75%, 100% 100%;
+  
 }
 
 .text-centre{
   text-align: center;
+  justify-content: space-between;
+  
+  background-color: #98DBC6;
+  border-radius: 5px;
+  display: grid;
+  justify-content: space-around;
+  
+  
 }
 
 .accsumm{
   display: flex;
   justify-content: space-around ;
-  background-color: rgb(123, 208, 241);
+  background-color: #5BC8AC;
   box-shadow:  0 0 10px gray;
   border: thin;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
 
 }
 
@@ -34,13 +49,18 @@
   
   padding: 15px 5px;
   border-radius: 5px;
-  background-color: #ffe6e6;
+  
+  color: white;
+}
+
+.color{
+  color: white;
 }
 
 .transaction-list{
   margin: 0;
   padding: 0; 
-  background-color: #bb99ff;
+  
 }
 .transaction-list > li{
   display: flex;
